@@ -18,7 +18,7 @@ function TextForm(props) {
     setText(event.target.value);
     // setText("you have clicked the ckeck !!");
   };
-  const [text, setText] = useState("");
+  const [text, setText] = useState("  ");
   // text = 'in the value '
 
   return (
